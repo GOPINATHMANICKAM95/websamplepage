@@ -1,0 +1,193 @@
+body
+{
+  background-size: cover;
+  background-size: cover;
+  background-color: black;
+  overflow-x: hidden;
+  margin:0 0;
+  padding: 0 2%;
+}
+.navbar{
+  color: black;
+  background-color: black;
+  padding-right: 11%;
+  padding-left: 11%;
+  padding-bottom: 0;
+}
+a
+{
+  font-size: 20px;
+  padding-left: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+a:hover
+{
+  color:red;
+  font-weight: normal;
+}
+.nav-item
+{
+  position: relative;
+  margin-bottom: 0;
+}
+.nav-item::after
+{
+  position: absolute;
+  width:0;
+  height:2px;
+  transition: 0.7s;
+  left: 0;
+  bottom: 0;
+  background-color: blue;
+  content: " ";
+}
+.nav-item:hover::after
+{
+  width:100%;
+}
+/* top section */
+#top
+{
+  position: relative;
+  top:100px;
+}
+#top img
+{
+  width:100%;
+  height: auto;
+  padding-right: 10px;
+}
+.left
+{
+  text-align: left;
+  left:190px;
+  top:180px;
+  font-weight: bold;
+  color:blue;
+}
+i{
+  padding-right:10px;
+}
+.card
+{
+  background-color: inherit;
+  text-align: center;
+}
+.gradient
+{
+  background: -webkit-linear-gradient(120deg,#0020AC,blue);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  font-weight: bolder;
+  padding: 2% 2%;
+}
+#fet
+{
+  padding: 1% 4%;
+}
+.ele
+{
+  padding: 2% 4%;
+}
+/* QUESTION:  */
+#qus{
+  text-align:center;
+  padding: 2% 7%;
+  background: url("web1.jpg");
+  background-position: center;
+  margin-top: 0;
+
+
+}
+#contact{
+  text-align: center;
+  margin-top: 1%;
+    }
+#contact.row{
+  text-align: center;
+}
+.form-group
+{
+  color:white;
+  background-color: black;
+  padding: 0px 75px;
+  margin-top: 0;
+}
+#bottom.navabar
+{
+  color:blue;
+  background-color: white;
+  font-size:10px;
+}
+.horizontal
+{
+  padding: 2% 0%;
+  position: relative;
+}
+.ray{
+  border-top:3px dashed white;
+  border-color:white;
+  color: white;
+  background-color: white;
+}
+.image{
+  position: absolute;
+  left: 640px;
+  top:60px;
+}
+.gal{
+  position: relative;
+  margin: 0 0;
+  padding: 0 0;
+}
+.gal img
+{
+  width: 100%;
+  height: 250px;
+}
+.gal::before{
+  position:absolute;
+  height: 250px;
+  width:0;
+  content: " ";
+  transition: 0.7s;
+  background-color: rgba(250,125,250,0.3);
+  top:0;
+  left:0;
+}
+.gal:hover::before{
+  width:75%
+}
+.card-text
+{
+  width:0%;
+  padding:0 20px;
+  position:absolute;
+  left:0;
+  top:-150%;
+  color:#000;
+  font-size: 0rem;
+
+  z-index: 2;
+  transition: 1.1s;
+
+}
+.card:hover .card-text
+{ left:0px;
+  top:90px;
+font-style: italic;
+font-weight: bold;
+width:100%;
+  font-size: 1.5rem;
+}
+#gallary
+{
+  padding: 0% 1%;
+}
+.ele:hover
+{
+
+}
