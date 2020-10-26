@@ -49,11 +49,7 @@ a:hover
   width:100%;
 }
 /* top section */
-#top
-{
-  position: relative;
-  top:100px;
-}
+
 #top img
 {
   width:100%;
